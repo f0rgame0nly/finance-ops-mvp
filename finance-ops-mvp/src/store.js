@@ -12,10 +12,21 @@ function save(state) {
 }
 
 const defaultUsers = [
-  { id: 1, name: 'Eman', email: 'eman@demo.local', role: 'employee', password: '123456', is_active: true },
-  { id: 2, name: 'Samar', email: 'samar@demo.local', role: 'supervisor', password: '123456', is_active: true },
-  { id: 3, name: 'Mohammed', email: 'manager@demo.local', role: 'manager', password: '123456', is_active: true }
+  // Employees
+  { id: 1,  name: 'Eman',        email: 'eman@demo.local',        role: 'employee',   password: '123456', is_active: true },
+  { id: 4,  name: 'Ali',         email: 'ali@demo.local',         role: 'employee',   password: '123456', is_active: true },
+  { id: 5,  name: 'Sara',        email: 'sara@demo.local',        role: 'employee',   password: '123456', is_active: true },
+  { id: 6,  name: 'Khalid',      email: 'khalid@demo.local',      role: 'employee',   password: '123456', is_active: true },
+
+  // Supervisors
+  { id: 2,  name: 'Samar',       email: 'samar@demo.local',       role: 'supervisor', password: '123456', is_active: true },
+  { id: 7,  name: 'Noura',       email: 'noura@demo.local',       role: 'supervisor', password: '123456', is_active: true },
+
+  // Managers
+  { id: 3,  name: 'Mohammed',    email: 'manager@demo.local',     role: 'manager',    password: '123456', is_active: true },
+  { id: 8,  name: 'Abdulrahman', email: 'abdulrahman@demo.local', role: 'manager',    password: '123456', is_active: true }
 ]
+
 
 const defaultState = {
   users: defaultUsers,
